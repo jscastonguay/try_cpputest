@@ -42,6 +42,7 @@
 */
 
 #include "mcc_generated_files/mcc.h"
+#include "process.h"
 
 /*
                          Main application
@@ -66,10 +67,11 @@ void main(void)
 
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
+    
+    process_init();
 
-    while (1)
-    {
-        // Add your application code
+    while (1) {
+        process_task();
     }
 }
 /**

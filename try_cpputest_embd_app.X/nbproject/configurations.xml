@@ -13,6 +13,8 @@
         <itemPath>mcc_generated_files/adc.h</itemPath>
         <itemPath>mcc_generated_files/eusart1.h</itemPath>
       </logicalFolder>
+      <itemPath>process.h</itemPath>
+      <itemPath>execute.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -32,6 +34,9 @@
         <itemPath>mcc_generated_files/eusart1.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
+      <itemPath>process.c</itemPath>
+      <itemPath>general.h</itemPath>
+      <itemPath>execute.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
